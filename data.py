@@ -30,4 +30,16 @@ def onWait_data(driver, xpath, data):
         raise 
     except TimeoutException as exception:
         logger.error("Timeout exception")
+        raise
+    except UnexpectedTagNameException as exception:
+        logger.error("Unexpected tag exception")
         raise 
+    except InvalidCoordinatesException as exception:
+        logger.error("Invalid coordinates exception")
+        raise
+    except ErrorInResponseException as exception:
+        logger.error("Error in server side")
+        raise
+    except ImeNotAvailableException as exception:
+        logger.error("IME support not available")
+        raise

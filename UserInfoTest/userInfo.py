@@ -8,6 +8,10 @@ from UserInfoTest.UserInfoPages.undergradInfo import *
 from UserInfoTest.UserInfoPages.uploadDocuments import *
 from UserInfoTest.UserInfoPages.jobpriorityInfo import *
 from Logout import *
+from pandas import ExcelFile
+
+xls = ExcelFile('User_credentials/Users.xlsx')
+data = xls.parse(xls.sheet_names[0])
 
 def user_fill_info(driver):
     logger = logging.getLogger(__name__)
@@ -18,17 +22,21 @@ def user_fill_info(driver):
     logger.addHandler(fh)
 
     try:
-        login(driver)
-        sidebar_navigation(driver)
-        personal_info(driver)
-        contact_info(driver)
-        class10_info(driver)
-        class12_info(driver)
-        undergraduate_info(driver)
-        jobPriority_info(driver)
-        uploadDocs_info(driver)
-        time.sleep(8)
-        logout(driver)
+        for x in range(0,len(data)):
+            username = str(data['Email'][x])
+            password = str(data['Password'][x])
+
+            login(driver, username, password)
+            sidebar_navigation(driver)
+            personal_info(driver)
+            contact_info(driver)
+            class10_info(driver)
+            class12_info(driver)
+            undergraduate_info(driver)
+            jobPriority_info(driver)
+            uploadDocs_info(driver)
+            time.sleep(8)
+            logout(driver)
     except:
         logger.error("User Info Test failed abruptly")
         raise
