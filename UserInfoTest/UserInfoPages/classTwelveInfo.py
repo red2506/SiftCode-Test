@@ -2,6 +2,7 @@ from data import onWait_data
 from click import *
 
 def class12_info(driver):
+    driver.implicitly_wait(10)
     onWait_data(driver, "//*[@id='class_xii']", "57")
     driver.implicitly_wait(10)
     onWait_data(driver, "//*[@id='class_xii_year']", "2018")

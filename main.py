@@ -20,11 +20,11 @@ os.environ['PATH'] += "C:/Users/Naveen/Desktop/Internship/FLASK/chromedriver_win
 driver = webdriver.Chrome()
 driver.maximize_window()
 
-try:
-    test_creation(driver)
-    logger.info("Test creration passed successfully")
-except:
-    logger.info("Test creation failed")
+# try:
+#     test_creation(driver)
+#     logger.info("Test creration passed successfully")
+# except:
+#     logger.info("Test creation failed")
 
 # try:
 #     login_logout(driver)
@@ -39,22 +39,22 @@ except:
     logger.info("User Info Test failed")
 
 # try:
-#     sign_up(driver)
-#     logger.info("Sign Up Test passed successfully")
-# except:
-#     logger.info("Sign Up Test failed")
-
-# try:
 #     test_submission(driver)
 #     logger.info("Assessment Submission Test passed successfully")
 # except:
 #     logger.info("Assessment Submission Test failed")
 
-try:
-    test_deletion(driver)
-    logger.info("Test deletion passed successfully")
-except:
-    logger.info("Test deletion failed")
+# try:
+#     test_deletion(driver)
+#     logger.info("Test deletion passed successfully")
+# except:
+#     logger.info("Test deletion failed")
+
+# try:
+#     sign_up(driver)
+#     logger.info("Sign Up Test passed successfully")
+# except:
+#     logger.info("Sign Up Test failed")
 
 driver.quit()
 
