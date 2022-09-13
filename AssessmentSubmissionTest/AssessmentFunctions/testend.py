@@ -3,6 +3,16 @@ from click import *
 from data import *
 
 def test_end(driver):
-    onWait_click(driver, "//*[@id='testSubmit']")
-    a = driver.switch_to.alert
-    a.accept()
+
+    """
+    test_end is used to end the test.
+
+    :driver: Instance of the chrome webdriver
+    """
+
+    try:
+        onWait_click(driver, "//*[@id='testSubmit']")
+        a = driver.switch_to.alert
+        a.accept()
+    except:
+        raise

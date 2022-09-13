@@ -1,7 +1,19 @@
 from data import *
-from click import onWait_click 
-def activate_test(driver):
-    #clicks on activate button
-    onWait_click(driver,"//*[contains(text(),'Some Test')]/parent::div/following-sibling::div[3]//*[@id='activate-test']") 
+from click import onWait_click
+
+
+def activate_test(driver, xpath):
+
+    """
+    activate_test is used to click on the activate test button.
+
+    :driver: Instance of the chrome webdriver
+    :xpath: XPATH of the activate test button
+    """
+
+    try:
+        onWait_click(driver, xpath)
+    except:
+        raise 
     
     

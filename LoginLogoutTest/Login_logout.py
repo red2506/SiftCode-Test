@@ -6,6 +6,14 @@ xls = ExcelFile('User_credentials/Users.xlsx')
 data = xls.parse(xls.sheet_names[0])
 
 def login_logout(driver):
+
+    """
+    login_logout is used to login and logout of the user's account account.
+
+    :driver: Instance of the chrome webdriver
+    """ 
+
+    # Setting up the logger for logging the data to the master.log file
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
     fh = RotatingFileHandler('master.log', maxBytes=2000000, backupCount=10)

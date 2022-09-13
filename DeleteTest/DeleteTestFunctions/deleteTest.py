@@ -1,16 +1,13 @@
 from click import *
 from data import *
 
-def delete_test(driver):
-    onWait_click(driver,"//*[contains(text(),'Some Test')]/parent::div/following-sibling::div[3]//*[@id='delete-test']")
+def delete_test(driver, xpath):
 
+    """
+    delete_test is used to click on the delete button.
 
-#//div[@class='col-md-3 col-sm-12']/following-sibling::div
+    :driver: Instance of the chrome webdriver
+    :xpath: XPATH of the delete button
+    """ 
 
-#//*[@id="tests"]/div[725]/div[1]/p
-
-#//*[contains(text(),'Some Test')]/parent::div/following-sibling::div[3]/input[@id="delete-test"]
-
-#//*[title="50"]/parent::store
-
-#//*[@id="activate-test"]
+    onWait_click(driver, xpath)
