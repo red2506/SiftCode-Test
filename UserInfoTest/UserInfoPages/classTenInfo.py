@@ -11,7 +11,7 @@ def class10_info(driver):
 
     try:
         # Percentage
-        onWait_data(driver,"//*[@id='class_x']", "74")
+        onWait_data(driver,"//*[@id='class_x']", "80")
 
         # Year
         onWait_data(driver,"//*[@id='class_x_year']", "2015")

@@ -12,9 +12,9 @@ def personal_info(driver):
 
     try:
         # First, Middle and Last name
-        onWait_data(driver,"//*[@id='first_name']", "Calden")
-        onWait_data(driver,"//*[@id='middle_name']", "Michael")
-        onWait_data(driver,"//*[@id='last_name']", "DSouza")
+        onWait_data(driver,"//*[@id='first_name']", "Abc")
+        onWait_data(driver,"//*[@id='middle_name']", "Def")
+        onWait_data(driver,"//*[@id='last_name']", "Ghi")
 
         # Date of birth
         onWait_click(driver,"//*[@id='date_of_birth']")

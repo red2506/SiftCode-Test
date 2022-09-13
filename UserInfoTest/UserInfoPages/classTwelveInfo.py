@@ -12,7 +12,7 @@ def class12_info(driver):
     try:
         # Percentage
         driver.implicitly_wait(10)
-        onWait_data(driver, "//*[@id='class_xii']", "57")
+        onWait_data(driver, "//*[@id='class_xii']", "78")
 
         # Year
         driver.implicitly_wait(10)
