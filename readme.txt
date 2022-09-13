@@ -13,6 +13,8 @@ Changes to be made while running
 2) Questions must be added by uploading the Excel file present in the path Questions\questions.xlsx
 3) The paths to the pdf and the image present in UserDocuments for uploding must be changed in files UserInfoTest\UserInfoPages\uploadDocuments.py
 4) The path to add the Excel file in User_credentials folder must be changes in the file CreateTest\TestFunctions\CreateUser.py
+5) The admin account must be changed in the Excel file (User_credentials\Users_add.xlsx)
+6) The user accounts must be changed in the Excel file (User_credentials\Users.xlsx)
 
 ==============================================
 How to run the tests
