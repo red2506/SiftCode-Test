@@ -1,0 +1,113 @@
+2022-09-15 11:10:10,494 - click - ERROR - Timeout exception
+2022-09-15 11:10:10,494 - click - ERROR - Timeout exception
+2022-09-15 11:10:10,499 - CreateTest.AdminMain - ERROR - Test creation failed abruptly
+2022-09-15 11:10:10,680 - __main__ - INFO - Test creation failed
+2022-09-15 11:10:17,790 - __main__ - INFO - Login-Logout Test passed successfully
+2022-09-15 11:10:21,842 - UserInfoTest.userInfo - ERROR - User Info Test failed abruptly
+2022-09-15 11:10:22,017 - __main__ - INFO - User Info Test failed
+2022-09-15 11:10:22,019 - AssessmentSubmissionTest.testSubmission - ERROR - Test Submission failed abruptly
+2022-09-15 11:10:22,287 - __main__ - INFO - Assessment Submission Test failed
+2022-09-15 11:10:22,290 - DeleteTest.DeleteTestMain - ERROR - Test deletion failed abruptly
+2022-09-15 11:10:22,456 - __main__ - INFO - Test deletion failed
+2022-09-15 11:26:43,392 - click - ERROR - Timeout exception
+2022-09-15 11:26:43,392 - click - ERROR - Timeout exception
+2022-09-15 11:26:43,394 - CreateTest.AdminMain - ERROR - Test creation failed abruptly
+2022-09-15 11:30:24,978 - click - ERROR - Timeout exception
+2022-09-15 11:30:24,978 - click - ERROR - Timeout exception
+2022-09-15 11:30:24,980 - CreateTest.AdminMain - ERROR - Test creation failed abruptly
+2022-09-15 13:56:25,509 - click - ERROR - Timeout exception
+2022-09-15 13:56:25,509 - click - ERROR - Timeout exception
+2022-09-15 13:56:25,512 - CreateTest.AdminMain - ERROR - Test creation failed abruptly
+2022-09-15 13:56:29,025 - __main__ - INFO - Test creation failed
+2022-09-15 13:56:38,616 - __main__ - INFO - Login-Logout Test passed successfully
+2022-09-15 13:57:18,491 - __main__ - INFO - User Info Test passed successfully
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,416 - click - ERROR - Timeout exception
+2022-09-15 13:57:44,431 - AssessmentSubmissionTest.testSubmission - ERROR - Test Submission failed abruptly
+2022-09-15 13:57:48,014 - __main__ - INFO - Assessment Submission Test failed
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,253 - click - ERROR - Timeout exception
+2022-09-15 13:58:11,271 - DeleteTest.DeleteTestMain - ERROR - Test deletion failed abruptly
+2022-09-15 13:58:13,715 - __main__ - INFO - Test deletion failed

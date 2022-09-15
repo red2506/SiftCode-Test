@@ -20,7 +20,7 @@ def create_test(driver):
         onWait_data(driver,"//*[@id='main']/div/form/div[1]/div/div[4]/div[2]/div/table/tbody[2]/tr/td[1]/input", "2")
         onWait_click(driver, "//*[@ng-model='questionType.tag']/option[contains(text(), 'GK')]")  #must contain tag called GK
         onWait_click(driver, "//*[@id='main']/div/form/div[1]/div/div[4]/div[2]/div/table/tbody[2]/tr/td[3]/select/option[2]")   #must be difficulty 1
-        time.sleep(3)
+        time.sleep(5)
         onWait_click(driver, "//*[@id='main']/div/form/div[1]/div/div[4]/div[3]/div[2]/input")
         time.sleep(3)
         onWait_click(driver,"//*[@id='main']/div/form/div[2]/div/button")

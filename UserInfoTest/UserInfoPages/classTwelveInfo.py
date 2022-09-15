@@ -11,15 +11,12 @@ def class12_info(driver):
 
     try:
         # Percentage
-        driver.implicitly_wait(10)
         onWait_data(driver, "//*[@id='class_xii']", "78")
 
         # Year
-        driver.implicitly_wait(10)
         onWait_data(driver, "//*[@id='class_xii_year']", "2018")
 
         # Continue
-        driver.implicitly_wait(10)
         onWait_click(driver, "//*[@id='candidate_info']/ul/li[4]/div[2]/div/div[4]/div/button[2]")
     except:
         raise

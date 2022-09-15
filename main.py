@@ -1,6 +1,6 @@
 """
     This is the main test file from which all different tests (Test Creation, Login-Logout test, User Info fill test,
-    Test submission, Test Deletion, SignUp test) are executed.py
+    Test submission, Test Deletion, SignUp test) are executed in order.
 
     Prerequisites:
     1) Selenium - pip install selenium
@@ -17,6 +17,7 @@ from SignupTest.signUp import sign_up
 from CreateTest.AdminMain import test_creation
 from DeleteTest.DeleteTestMain import test_deletion
 import logging
+from Screenshot import Screenshot
 
 # Adding the Chrome webdriver to the environment
 os.environ['PATH'] += "C:/Users/Naveen/Desktop/Internship/FLASK/chromedriver_win32"
@@ -32,11 +33,15 @@ logger.addHandler(fh)
 driver = webdriver.Chrome()
 driver.maximize_window()
 
+# Creating the screenshot instance
+ss = Screenshot.Screenshot()
+
 # Test Creation
 try:
     test_creation(driver)
     logger.info("Test creration passed successfully")
 except:
+    ss.full_Screenshot(driver, save_path = 'AutomationReport/', image_name= 'test_creation.png')
     logger.info("Test creation failed")
 
 # Login-Logout test
@@ -44,6 +49,7 @@ try:
     login_logout(driver)
     logger.info("Login-Logout Test passed successfully")
 except:
+    ss.full_Screenshot(driver, save_path = 'AutomationReport/', image_name= 'Login_logout.png')
     logger.info("Login-Logout Test failed")
 
 # Filling User-Info test 
@@ -51,6 +57,7 @@ try:
     user_fill_info(driver)
     logger.info("User Info Test passed successfully")
 except:
+    ss.full_Screenshot(driver, save_path = 'AutomationReport/', image_name= 'user_info.png')
     logger.info("User Info Test failed")
     
 # Test submission
@@ -58,6 +65,7 @@ try:
     test_submission(driver)
     logger.info("Assessment Submission Test passed successfully")
 except:
+    ss.full_Screenshot(driver, save_path = 'AutomationReport/', image_name= 'test_submission.png')
     logger.info("Assessment Submission Test failed")
 
 # Test deletion
@@ -65,6 +73,7 @@ try:
     test_deletion(driver)
     logger.info("Test deletion passed successfully")
 except:
+    ss.full_Screenshot(driver, save_path = 'AutomationReport/', image_name= 'test_deletion.png')
     logger.info("Test deletion failed")
 
 # SignUp test
